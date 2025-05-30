@@ -1,4 +1,4 @@
-# 🥪 Crave Cave Sandwich Shop
+# 🥪 Crave Cave Sandwich Shop 🥪
 
 **Bold Bites. Fresh Ingredients. Endless Customization.**  
 DELI-cious is a command-line Java application designed to simulate a point-of-sale (POS) system for a growing custom sandwich shop. This project was developed using Object-Oriented Programming (OOP) principles and supports dynamic sandwich building, drinks, chips, and receipt generation — all through a smooth CLI experience.
@@ -72,14 +72,37 @@ Prebuilt sandwiches available with preset ingredients:
 ---
 
 ## 🖼️ Screenshots
+ 
+  - Main Menu
+![image](https://github.com/user-attachments/assets/5c78e630-b027-46dc-908a-437baff0451b)
 
-> 💡 _Insert CLI screenshots here_  
-> Suggested shots:
-> - Main Menu
-> - Sandwich customization
-> - Signature sandwich selection
-> - Checkout summary
-> - Receipt sample
+![image](https://github.com/user-attachments/assets/41ad60d7-fd81-462c-b73c-fc5255592467)
+
+ - Sandwich customization
+
+![image](https://github.com/user-attachments/assets/783d47b3-af7b-4020-8176-b9b066432eb2)
+
+- Signature sandwich selection
+
+![image](https://github.com/user-attachments/assets/606ff1e2-d044-4dd4-96da-40aa94caa858)
+
+![image](https://github.com/user-attachments/assets/cb4ed7ff-592d-41b3-bc55-f03f84205e83)
+
+![image](https://github.com/user-attachments/assets/a8ef16b7-1f44-4bf9-bdf4-4b519b3802a1)
+
+
+- Checkout summary
+
+  ![image](https://github.com/user-attachments/assets/5e9365e4-d219-44d0-9d55-cbbacfd6c4be)
+  
+  ![image](https://github.com/user-attachments/assets/09255345-667f-4c01-966a-ded09896f67c)
+
+
+- Receipt sample
+  
+![image](https://github.com/user-attachments/assets/8d885244-cdc8-4e23-8ff2-8111b133980b)
+
+![image](https://github.com/user-attachments/assets/51fea2f6-3eb7-4a2f-b86e-b806a1236f28)
 
 ---
 
@@ -100,4 +123,4 @@ Heldana Gebremariam
 
 Java Developer & System Designer
 
-05/23/2025
+05/30/2025

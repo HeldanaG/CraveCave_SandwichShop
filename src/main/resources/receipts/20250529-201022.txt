@@ -1,0 +1,27 @@
+
+|==================== RECEIPT ====================|
+| Date: 2025-05-29 20:10:22
+| Customer Name: elda
+| ------------------------------------------------|
+| Items Ordered:
+| Sandwich:
+| 8" White (Toasted)
+| 🥩 Meats:
+|    - Chicken
+| 🧀 Cheeses:
+|    - cheddar (extra)
+| 🥬 Toppings:
+|    - Lettuce
+|    - Tomatoes
+| 🧂 Sauces:
+|    - Mayo
+| 🍽️ Sides:
+| 💵 Price: $11.10
+|
+| ------------------------------------------------|
+| Subtotal: $11.10
+| Tax (8.25%): $0.92
+| Tip (0.0%): $0.00
+| Total: $12.02
+| Payment Method: CARD (ending in 2333)
+|=================================================|

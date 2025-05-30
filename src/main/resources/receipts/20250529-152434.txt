@@ -1,0 +1,29 @@
+
+|==================== RECEIPT ====================|
+| Date: 2025-05-29 15:24:34
+| Customer Name: elda
+| -----------------------------------------------|
+| Items Ordered:
+| Sandwich:
+| 12" White (Toasted)
+| 🥩 Meats:
+|    - Ham (extra)
+| 🧀 Cheeses:
+|    - Swiss
+| 🥬 Toppings:
+|    - Lettuce
+|    - Onions
+|    - Pickles
+| 🧂 Sauces:
+|    - Mayo
+|    - Mustard
+| 💵 Price: $15.25
+|
+| Drink: Medium Dr. Pepper ($2.50)
+| -----------------------------------------------|
+| Subtotal: $17.75
+| Tax (8.25%): $1.46
+| Tip (0.0%): $0.00
+| Total: $19.21
+| Payment Method: CARD (ending in 3444)
+|===============================================|

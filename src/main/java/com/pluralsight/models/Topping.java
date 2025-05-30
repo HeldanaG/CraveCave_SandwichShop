@@ -1,4 +1,6 @@
-package com.pluralsight;
+package com.pluralsight.models;
+
+import com.pluralsight.util.FixedValues;
 
 public class Topping {
         private String name;
@@ -7,6 +9,10 @@ public class Topping {
         public Topping(String name, boolean isExtra) {
             this.name = name;
             this.isExtra = isExtra;
+        }
+
+        public boolean isExtra() {
+            return isExtra;
         }
 
         public double getPrice(int size, boolean isMeat) {

@@ -1,0 +1,33 @@
+
+|==================== RECEIPT ====================|
+| Date: 2025-05-29 18:12:01
+| Customer Name: biruk
+| ------------------------------------------------|
+| Items Ordered:
+| Sandwich:
+| 8" Rye (Toasted)
+| 🥩 Meats:
+|    - Ham (extra)
+| 🧀 Cheeses:
+|    - Swiss
+| 🥬 Toppings:
+|    - Lettuce
+|    - Cucumbers
+|    - Pickles
+| 🧂 Sauces:
+|    - Mayo
+|    - Ranch
+| 🍽️ Sides:
+|    - Sauce
+|    - Fruit Cup
+| 💵 Price: $11.50
+|
+| Drink: Bottled iced tea ($3.25)
+| Chips: Lays ($1.50)
+| ------------------------------------------------|
+| Subtotal: $16.25
+| Tax (8.25%): $1.34
+| Tip (10.0%): $1.63
+| Total: $19.22
+| Payment Method: CARD (ending in 3444)
+|=================================================|

@@ -106,6 +106,10 @@ Prebuilt sandwiches available with preset ingredients:
 
 ---
 
+## 🖼️ UML Diagram
+
+![image](https://github.com/user-attachments/assets/730fc7ab-eae9-46ff-9f9d-30a47493704a)
+
 ## 📌 Interesting Code Snippet
 
 ```java

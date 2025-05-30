@@ -9,10 +9,10 @@ public class SandwichApp {
         Scanner scanner = new Scanner(System.in);
 
         System.out.println(
-                         "[=================== CRAVE CAVE SANDWICH SHOP 🥪 ===================]\n" +
+                        "\n[=================== 🥪 CRAVE CAVE SANDWICH SHOP 🥪 ================]\n" +
                         "[         Bold Bites. Fresh Ingredients. Endless Customization.     ]\n"+
-                        "[         1) New Order                                                ]\n"+
-                        "[         0) Exit                                                     ]");
+                        "[         1) New Order                                              ]\n"+
+                        "[         0) Exit                                                   ]");
 
         System.out.print("Choose an option: ");
         String option = scanner.nextLine();

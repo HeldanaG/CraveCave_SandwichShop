@@ -1,0 +1,32 @@
+
+|==================== RECEIPT ====================|
+| Date: 2025-05-30 10:22:00
+| Customer Name: elda
+| ------------------------------------------------|
+| Items Ordered:
+| Sandwich:
+| 8" White (Toasted)
+| 🥩 Meats:
+|    - Ham
+| 🧀 Cheeses:
+|    - Swiss (extra)
+| 🥬 Toppings:
+|    - Lettuce
+|    - Onions
+|    - Pickles
+| 🧂 Sauces:
+|    - Mayo
+|    - Ranch
+| 🍽️ Sides:
+|    - Fruit Cup
+| 💵 Price: $11.10
+|
+| Drink: Bottled iced tea ($3.25)
+| Chips: Lays ($1.50)
+| ------------------------------------------------|
+| Subtotal: $15.85
+| Tax (8.25%): $1.31
+| Tip (0.0%): $0.00
+| Total: $17.16
+| Payment Method: CARD (ending in 3444)
+|=================================================|

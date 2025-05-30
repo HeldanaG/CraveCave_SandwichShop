@@ -136,18 +136,18 @@ public class FixedValues {
                         "|   • 4\" - $0.30   • 8\" - $0.60   • 12\" - $0.90              |\n" +
                         "|                                                            |\n" +
                         "|  🥬 Toppings (no cost)                                     |\n" +
-                        "|   🥬 Lettuce   🌶️ Peppers   🧅 Onions   🥑 Guacamole      |\n" +
-                        "|   🍅 Tomatoes   🌶️ Jalapeños   🥒 Cucumbers   🥒 Pickles  |\n" +
-                        "|   🍄 Mushrooms                                             |\n" +
+                        "|    Lettuce    Peppers    Onions     Guacamole              |\n" +
+                        "|    Tomatoes  ️ Jalapeños   Cucumbers  Pickles                |\n" +
+                        "|    Mushrooms                                               |\n" +
                         "|                                                            |\n" +
                         "|  🧂 Sauces (no cost)                                       |\n" +
-                        "|   🧂 Mayo   🌭 Mustard   🍅 Ketchup   🥛 Ranch            |\n" +
-                        "|   🫒 Vinaigrette   🍹 Thousand Islands                    |\n" +
+                        "|    Mayo   Mustard   Ketchup   Ranch                        |\n" +
+                        "|    Vinaigrette   Thousand Islands                          |\n" +
                         "|                                                            |\n" +
                         "|  🍽️ Sides (no cost)                                        |\n" +
-                        "|   🍖 Au Jus   🍯 Sauce   🥗 Coleslaw   🥔 Potato Salad    |\n" +
-                        "|   🍝 Macaroni Salad   🥒 Pickle Spear   🍇 Fruit Cup      |\n" +
-                        "|   🍜 Cup of Soup                                           |\n" +
+                        "|   Au Jus    Sauce    Coleslaw   Potato Salad               |\n" +
+                        "|   Macaroni Salad    Pickle Spear    Fruit Cup              |\n" +
+                        "|   Cup of Soup                                              |\n" +
                         "//===========================================================//\n"
         );
 
@@ -161,21 +161,20 @@ public class FixedValues {
                         "|   • Large   - $3.00                                   |\n" +
                         "|                                                       |\n" +
                         "| 🧃 Fountain Flavors                                   |\n" +
-                        "|   🥤 Coke   🥤 Sprite   🥤 Fanta   🍋 Lemonade       |\n" +
-                        "|   🥤 Root Beer   🧃 Mountain Blast   🥤 Dr. Pepper   |\n" +
+                        "|    Coke    Sprite    Fanta    Lemonade                |\n" +
+                        "|    Root Beer   Mountain Blast    Dr. Pepper           |\n" +
                         "|                                                       |\n" +
-                        "|   Bottled Drinks (Flat $3.25)                         |\n" +
-                        "|   💧 Sparkling Water   🍹 Iced Tea                   |\n" +
-                        "|   🍊 Orange Juice   🚰 Bottled Water                 |\n" +
+                        "| 🚰 Bottled Drinks (Flat $3.25)                        |\n" +
+                        "|    Sparkling Water   Iced Tea                         |\n" +
+                        "|    Orange Juice    Bottled Water                      |\n" +
                         "//=====================================================//\n");
     }
     public static void displayChipsMenu() {
         System.out.print(
-                        "\n//============== CHIPS MENU =========================//"+
+                        "\n//============== CHIPS MENU =========================//\n"+
                         "|  🥔 Available Chip Types (Flat $1.50 Each)           |\n" +
-                        "|    • Lays       • Doritos                            |\n" +
-                        "|    • Cheetos    • BBQ Chips                          |\n" +
-                        "|    • Salt & Vinegar                                  |\n" +
+                        "|     Lays        Doritos       Salt & Vinegar         |\n" +
+                        "|     Cheetos     BBQ Chips                            |\n" +
                         "//=====================================================//\n");
     }
 }

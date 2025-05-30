@@ -66,8 +66,6 @@ public class Sandwich  {
         return price;
     }
 
-
-
     public String getSummary() {
         StringBuilder sb = new StringBuilder();
         sb.append(size).append("\" ").append(breadType).append(isToasted ? " (Toasted)\n" : "\n");

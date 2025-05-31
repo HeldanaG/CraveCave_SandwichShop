@@ -1,6 +1,6 @@
 # 🥪 Crave Cave Sandwich Shop 🥪
 
-                                                                    Bold Bites. Fresh Ingredients. Endless Customization.  
+                                        Bold Bites. Fresh Ingredients. Endless Customization.  
 Crave Cave is a command-line Java application designed to simulate a point-of-sale (POS) system for a growing custom sandwich shop. This project was developed using Object-Oriented Programming (OOP) principles and supports dynamic sandwich building, drinks, chips, and receipt generation — all through a smooth CLI experience.
 
 ---

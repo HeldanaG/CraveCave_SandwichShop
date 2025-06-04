@@ -1,6 +1,6 @@
 # 🥪 Crave Cave Sandwich Shop 🥪
 
-                                        Bold Bites. Fresh Ingredients. Endless Customization.  
+                              Bold Bites. Fresh Ingredients. Endless Customization.  
 Crave Cave is a command-line Java application designed to simulate a point-of-sale (POS) system for a growing custom sandwich shop. This project was developed using Object-Oriented Programming (OOP) principles and supports dynamic sandwich building, drinks, chips, and receipt generation — all through a smooth CLI experience.
 
 ---
@@ -114,14 +114,60 @@ Prebuilt sandwiches available with preset ingredients:
 ## 📌 Interesting Code Snippet
 
 ```java
-public double getPrice(int size, boolean isMeat) {
-    double basePrice = isMeat ? FixedValues.MEAT_PRICES.get(size) : FixedValues.CHEESE_PRICES.get(size);
-    if (isExtra) {
-        basePrice += isMeat ? FixedValues.EXTRA_MEAT.get(size) : FixedValues.EXTRA_CHEESE.get(size);
+private void editCategory(String category, List<String> availableItems) {
+    if (availableItems.isEmpty()) {
+        System.out.println("No items to edit in this category.");
+        return;
     }
-    return basePrice;
+    String action = askText("Would you like to remove or change items? (remove/change): ").toLowerCase();
+    if (action.equals("remove")) {
+        String input = askText("Enter items from current sandwich to remove (comma-separated): ");
+        List<String> toRemove = Arrays.stream(input.split(","))
+                .map(String::trim).map(String::toLowerCase).toList();
+        switch (category) {
+            case "meat" -> meats.removeIf(m -> toRemove.contains(m.getName().toLowerCase()));
+            case "cheese" -> cheeses.removeIf(c -> toRemove.contains(c.getName().toLowerCase()));
+            case "topping" -> getToppings().removeIf(t -> toRemove.contains(t.toLowerCase()));
+            case "sauce" -> getSauces().removeIf(s -> toRemove.contains(s.toLowerCase()));
+            case "side" -> getSides().removeIf(s -> toRemove.contains(s.toLowerCase()));
+        }
+    } else if (action.equals("change")) {
+        String fromItem = askText("Enter items from current sandwich to replace: ").toLowerCase();
+        String toItem = askText("Enter the new item: ");
+        switch (category) {
+            case "meat" -> {
+                meats.removeIf(m -> m.getName().equalsIgnoreCase(fromItem));
+                boolean extra = ask("Would you like " + toItem + " as extra?");
+                addMeat(toItem, extra);
+            }
+            case "cheese" -> {
+                cheeses.removeIf(c -> c.getName().equalsIgnoreCase(fromItem));
+                boolean extra = ask("Would you like " + toItem + " as extra?");
+                addCheese(toItem, extra);
+            }
+            case "topping" -> {
+                getToppings().removeIf(t -> t.equalsIgnoreCase(fromItem));
+                addTopping(toItem);
+            }
+            case "sauce" -> {
+                getSauces().removeIf(s -> s.equalsIgnoreCase(fromItem));
+                addSauce(toItem);
+            }
+            case "side" -> {
+                getSides().removeIf(s -> s.equalsIgnoreCase(fromItem));
+                addSide(toItem);
+            }
+        }
+    }
 }
+
 ```
+
+## 💡 Why it’s interesting:
+This method brings flexibility to the SignatureSandwich class by allowing users to interactively modify predefined sandwiches. It showcases dynamic category editing using polymorphic behavior, efficient input parsing with Java Streams, and user-driven logic branching — all in one place. It makes the app feel personalized, as users can truly own their order with live ingredient modifications.
+
+
+
 ## 🙋‍♀️ Author
 
 Heldana Gebremariam
